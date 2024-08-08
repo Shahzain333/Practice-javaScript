@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+nav{
+    margin-top: 30px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid #212121;
+    border-radius: 8px;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+table,th,td {
+    border: 1px solid #e7e7e7;
+}
+
+.project{
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.color{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
