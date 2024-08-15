@@ -8,7 +8,41 @@
 </head>
 <body>
     
-    
+    <div class="container">
+
+        <h1>Faulty Calculator</h1>
+        <h3>This calculator may produce 10% calculation wrongly</h3>
+        <p>If the random value is below 10 then calulator will give wrong output else correct</p>
+
+        <h4 id="random"></h4>
+
+        <form action="#">
+
+            <label for="num1">Num1 :</label>
+            <input id="num1" type="number">
+
+            <br>
+            <label for="select">Select Operator :</label>
+            <select id="operators">
+                <option>select</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+ 
+            <br>
+            <label for="num2">Num2 :</label>
+            <input id="num2" type="number">
+
+            <br>
+            <button id="button" type="submit">Calculate</button>
+
+        </form>
+
+        <p id="result"></p>
+
+    </div>
 
     <script src="./script.js"></script>
 
