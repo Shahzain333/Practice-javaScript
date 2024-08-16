@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #212122;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #232b2b;
+    gap: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(223, 219, 219, 0.6);
+    border-radius: 4px;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+input{
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding:5px;
+}
+
+button{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 4px;
+    background-color: brown;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    background-color: brown;
+    font-size: 1.1rem;
+}
+
+.runs ul,.rules ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+
+.runs-box, .rules-box {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.rules-box{
+    margin-bottom: 10px;
+}
+
+.rules-box:hover , .runs-box:hover {
+    background-color: #f4f4f4;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* .run-circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#scoreHistory{
+    margin-top: 10px;
+    color: aquamarine;
+}
+
+#addover{
+    background-color: aquamarine;
+    color: black;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: lightblue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

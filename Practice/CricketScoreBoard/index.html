@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Score Board</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Cricket Score Board</h1>
+
+        <div>
+           <form action="#">
+
+               <label for="matchOvers">No. Of Overs:</label>
+               <input id="matchOvers" type="number" placeholder="Enter Match Overs">
+
+               <label for="team1">Team 1:</label>
+               <input id="team1" type="text" placeholder="Enter 1st Team Name">
+
+               <label for="team2">Team 2:</label>
+               <input id="team2" type="text" placeholder="Enter 2nd Team Name">
+
+               <button type="submit" id="play">Play</button>
+
+            </form>
+       </div>
+
+       <div id="information"></div>
+       <p id="showOver"></p>
+
+       <div class="runs">
+         <ul>
+            <li class="runs-box" id="one">One</li>
+            <li class="runs-box" id="two">Two</li>
+            <li class="runs-box" id="three">Three</li>
+            <li class="runs-box" id="four">Four</li>
+            <li class="runs-box" id="five">Five</li>
+            <li class="runs-box" id="six">Six</li>
+         </ul>
+       </div>
+
+       <div class="rules">
+          <ul id="ul2">
+              <li class="rules-box" id="dotBall">Dot Ball</li>
+              <li class="rules-box" id="whiteBall">White Ball</li>
+              <li class="rules-box" id="wicket">Wicket</li>
+              <li class="rules-box" id="noBall">No Ball</li>
+          </ul>
+       </div>
+
+       
+        <div id="stats">
+            <p id="liveScore"></p>
+            <p id="scoreHistory"></p>
+            <p id="totalRun"></p>
+            <p id="result"></p>
+        </div>
+
+
+    </div>
+
+<br>
+
+    <script src="./script.js"></script>
+</body>
+</html>
