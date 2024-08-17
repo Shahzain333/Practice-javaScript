@@ -85,12 +85,12 @@ li {
 
 #scoreHistory{
     margin-top: 10px;
-    color: aquamarine;
+    color: brown;
 }
 
 #addover{
-    background-color: aquamarine;
-    color: black;
+    background-color: brown;
+    color: white;
 }
 
 #information{
@@ -98,7 +98,7 @@ li {
     flex-direction: column;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: lightblue;
+    color: brown;
 }
 
 
