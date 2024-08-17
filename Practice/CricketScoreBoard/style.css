@@ -48,6 +48,21 @@ button{
     color: white;
 }
 
+#information{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
+    color: lightcoral;
+}
+
+.run-circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
 li {
     list-style-type: none;
     background-color: brown;
@@ -76,13 +91,6 @@ li {
     cursor: pointer;
 }
 
-
-.run-circle{
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 4px;
-}
-
 #scoreHistory{
     margin-top: 10px;
     color: brown;
@@ -92,45 +100,6 @@ li {
     background-color: brown;
     color: white;
 }
-
-#information{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: brown;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
