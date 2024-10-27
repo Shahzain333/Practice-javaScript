@@ -1,35 +1,31 @@
-
-const superHeros = ['spiderman', 'hulk']
-
-const superHerosPower = {
-    spiderman: "temp",
-    hulk: "temp2",
-
-    power: function() {
-        console.log(`power of hulk ${this.hulk}`);
-    }
+let computer = {
+    cpu: 12
 }
 
-// adding method at object level
-
-Object.prototype.hello = function() {
-    console.log("Hello, access me");
+let lenovo = {
+    screen: "HD",
+    __proto__: computer,
 }
 
-// now the hello function will be array and object as well
+let tomHardware = {};
 
-superHeros.hello()
-superHerosPower.hello()
+// console.log(computer);
+// console.log('computer', computer.__proto__);
+//console.log('Lenovo', lenovo.__proto__);
 
-// adding another method to array object only
+let genericCar = {tyres: 4}
 
-Array.prototype.printMe = function(){
-    console.log(`This is print function`);
+let tesla = {
+    driver: "AI",
 }
 
-superHeros.printMe()
-//superHerosPower.printMe()
+Object.setPrototypeOf(tesla, genericCar);
 
+// console.log(`Tesla: `,tesla)
+//console.log(`Tesla: `,genericCar)
+//console.log(`Tesla: `,tesla.tyres)
+console.log(`Tesla: `,Object.getPrototypeOf(tesla))
+console.log(`Tesla: `,Object.getPrototypeOf(tesla.tyres))
 
 
 
